@@ -1,14 +1,11 @@
 import time
 import turtle
-import tkinter as tk
 
 wn = turtle.Screen()
 tr = turtle.Turtle()
 wn.setup(1000, 600)
 wn.colormode(255)
 wn.bgcolor(0, 0, 70)
-"""wn.addshape('img.gif')
-tr.shape('img.gif')"""
 wn.title("Python Quiz")
 
 
@@ -162,7 +159,7 @@ D.goto(50, -225)
 
 
 #OPening
-"""quest.write("Welcome to the Quiz", font=("Verdana", 23, "bold"))
+quest.write("Welcome to the Quiz", font=("Verdana", 23, "bold"))
 time.sleep(2)
 quest.clear()
 
@@ -172,7 +169,7 @@ quest.clear()
 
 quest.write("GOOD LUCK!", font=("Verdana", 23, "bold"))
 time.sleep(2)
-quest.clear()"""
+quest.clear()
 
 
 
@@ -295,55 +292,55 @@ def question4():
     global correct
     correct = 'A'
 def question5():
-    quest.write(" Question 5",font=("Verdana", 12, "bold"))
-    A.write("A. 9",font=("Verdana", 12, "bold"))
-    B.write("B. 10",font=("Verdana", 12, "bold"))
-    C.write("C. 11",font=("Verdana", 12, "bold"))
-    D.write("D. Infinite",font=("Verdana", 12, "bold"))
+    quest.write("Which one is NOT a legal variable name?",font=("Verdana", 12, "bold"))
+    A.write("A. my-var",font=("Verdana", 12, "bold"))
+    B.write("B. Myvar",font=("Verdana", 12, "bold"))
+    C.write("C. my_var",font=("Verdana", 12, "bold"))
+    D.write("D. _myvar",font=("Verdana", 12, "bold"))
     global correct
     correct = 'A'
 def question6():
-    quest.write(" Question 6",font=("Verdana", 12, "bold"))
-    A.write("A. 9",font=("Verdana", 12, "bold"))
-    B.write("B. 10",font=("Verdana", 12, "bold"))
-    C.write("C. 11",font=("Verdana", 12, "bold"))
-    D.write("D. Infinite",font=("Verdana", 12, "bold"))
+    quest.write("What is a correct syntax to return the first character in a string?",font=("Verdana", 12, "bold"))
+    A.write("A. x = ""Hello""[0]",font=("Verdana", 12, "bold"))
+    B.write("B. x = sub(""Hello"", 0, 1)",font=("Verdana", 12, "bold"))
+    C.write("C. x = ""Hello"".sub(0, 1)",font=("Verdana", 12, "bold"))
+    D.write("D. x = ""Hello""(0)",font=("Verdana", 12, "bold"))
     global correct
     correct = 'A'
 def question7():
-    quest.write(" Question 7",font=("Verdana", 12, "bold"))
-    A.write("A. 9",font=("Verdana", 12, "bold"))
-    B.write("B. 10",font=("Verdana", 12, "bold"))
-    C.write("C. 11",font=("Verdana", 12, "bold"))
-    D.write("D. Infinite",font=("Verdana", 12, "bold"))
+    quest.write("Which method can be used to remove any whitespace from both \n the beginning and the end of a string?",font=("Verdana", 12, "bold"))
+    A.write("A. trim()",font=("Verdana", 12, "bold"))
+    B.write("B. ptrim()",font=("Verdana", 12, "bold"))
+    C.write("C. strip()",font=("Verdana", 12, "bold"))
+    D.write("D. len()",font=("Verdana", 12, "bold"))
     global correct
-    correct = 'A'
+    correct = 'C'
 def question8():
-    quest.write(" Question 8",font=("Verdana", 12, "bold"))
-    A.write("A. 9",font=("Verdana", 12, "bold"))
-    B.write("B. 10",font=("Verdana", 12, "bold"))
-    C.write("C. 11",font=("Verdana", 12, "bold"))
-    D.write("D. Infinite",font=("Verdana", 12, "bold"))
+    quest.write("Which of these collections defines a LIST?",font=("Verdana", 12, "bold"))
+    A.write("A. (""apple"", ""banana"", ""cherry"")",font=("Verdana", 12, "bold"))
+    B.write("B. [""apple"", ""banana"", ""cherry""]",font=("Verdana", 12, "bold"))
+    C.write("C. {""apple"", ""banana"", ""cherry""}",font=("Verdana", 12, "bold"))
+    D.write("D. {""name"": ""apple"", ""color"": ""green""}",font=("Verdana", 12, "bold"))
     global correct
-    correct = 'A'
+    correct = 'B'
 def question9():
-    quest.write(" Question 9",font=("Verdana", 12, "bold"))
-    A.write("A. 9",font=("Verdana", 12, "bold"))
-    B.write("B. 10",font=("Verdana", 12, "bold"))
-    C.write("C. 11",font=("Verdana", 12, "bold"))
-    D.write("D. Infinite",font=("Verdana", 12, "bold"))
+    quest.write("Which collection is ordered, changeable, \n and allows duplicate members?",font=("Verdana", 12, "bold"))
+    A.write("A. SET",font=("Verdana", 12, "bold"))
+    B.write("B. DICTIONARY",font=("Verdana", 12, "bold"))
+    C.write("C. TUPLE",font=("Verdana", 12, "bold"))
+    D.write("D. LIST ",font=("Verdana", 12, "bold"))
     global correct
-    correct = 'A'
+    correct = 'D'
 def question10():
-    quest.write(" Question 10",font=("Verdana", 12, "bold"))
-    A.write("A. 9",font=("Verdana", 12, "bold"))
-    B.write("B. 10",font=("Verdana", 12, "bold"))
-    C.write("C. 11",font=("Verdana", 12, "bold"))
-    D.write("D. Infinite",font=("Verdana", 12, "bold"))
+    quest.write("How do you start writing a while loop in Python?",font=("Verdana", 12, "bold"))
+    A.write("A. while(x > y){",font=("Verdana", 12, "bold"))
+    B.write("B. while(x > y){",font=("Verdana", 12, "bold"))
+    C.write("C. while x > y:",font=("Verdana", 12, "bold"))
+    D.write("D. x > y while {",font=("Verdana", 12, "bold"))
     global correct
-    correct = 'A'
+    correct = 'C'
 def exi():
-    quest.write("End of Quiz!! Click Any Where On the Screen to exit", font=("Verdana", 12, "bold"))
+    quest.write("End of Quiz!! You score is {}/10 \n Click Any Where On the Screen to exit".format(correctNow), font=("Verdana", 12, "bold"))
     turtle.exitonclick()
 
 
